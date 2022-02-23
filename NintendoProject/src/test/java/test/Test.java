@@ -3,12 +3,13 @@ package test;
 import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
+import metier.Salon;
 
 public class Test {
 
 	public static void main(String[] args) {
-		Console ps = new Console("ps5");
-		Console xbox = new Console("xbox");
+		Console ps = new Salon("ps5");
+		Console xbox = new Salon("xbox");
 		
 		Boutique boutique = new Boutique("Test","");
 		
