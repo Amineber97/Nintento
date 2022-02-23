@@ -1,8 +1,9 @@
 package test;
-
 import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
+import metier.Client;
+
 
 public class Test {
 
@@ -20,7 +21,9 @@ public class Test {
 
 
 
-
+		
+		Client c1 = new Client("K", "Momo");
+		Client c2 = new Client("Mario", "Amine");
 	}
 
 }
