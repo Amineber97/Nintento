@@ -3,16 +3,14 @@ import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
 import metier.Client;
-
-
-import metier.Boutique;
+import metier.Salon;
 
 public class Test {
 
 	public static void main(String[] args) {
 
-		Console ps = new Console("ps5");
-		Console xbox = new Console("xbox");
+		Console ps = new Salon("ps5",20,"20/11/2021");
+		Console xbox = new Salon("xbox",25,"10/10/2020");
 		
 		Boutique boutique = new Boutique("Test","");
 		
