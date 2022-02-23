@@ -6,10 +6,10 @@ public class Client {
 	
 	private String nom;
 	private String prenom;
-	private List<String> achat;
+	private List<Jeu> achat;
 	
 	
-	public Client(String nom, String prenom, List<String> achat) {
+	public Client(String nom, String prenom, List<Jeu> achat) {
 		this.nom = nom;
 		this.prenom = prenom;
 		this.achat = achat;
@@ -37,12 +37,12 @@ public class Client {
 
 	
 
-	public List<String> getAchat() {
+	public List<Jeu> getAchat() {
 		return achat;
 	}
 
 
-	public void setAchat(List<String> achat) {
+	public void setAchat(List<Jeu> achat) {
 		this.achat = achat;
 	}
 

@@ -30,8 +30,8 @@ public class Test {
 		
 		Boutique b = new Boutique ("zara","rue des peupliers");
 
-		List<String> a1 = new ArrayList();
-		Collections.addAll(a1, "achat1", "achat2");
+		List<Jeu> a1 = new ArrayList();
+		Collections.addAll(a1, jeu1, jeu2);
 		
 		
 		Client c1 = new Client("K", "Momo", a1);
