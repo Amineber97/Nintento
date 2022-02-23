@@ -1,14 +1,18 @@
 package metier;
 
+import java.util.List;
+
 public class Client {
 	
-	public String nom;
-	public String prenom;
+	private String nom;
+	private String prenom;
+	private List<Jeu> achat;
 	
 	
-	public Client(String nom, String prenom) {
+	public Client(String nom, String prenom, List<Jeu> achat) {
 		this.nom = nom;
 		this.prenom = prenom;
+		this.achat = achat;
 	}
 
 
@@ -31,11 +35,25 @@ public class Client {
 		this.prenom = prenom;
 	}
 
+	
+
+	public List<Jeu> getAchat() {
+		return achat;
+	}
+
+
+	public void setAchat(List<Jeu> achat) {
+		this.achat = achat;
+	}
+
 
 	@Override
 	public String toString() {
-		return "Client [nom=" + nom + ", prenom=" + prenom + "]";
+		return "Client [nom=" + nom + ", prenom=" + prenom + ", achat=" + achat + "]";
 	}
+
+
+
 
 	
 }
