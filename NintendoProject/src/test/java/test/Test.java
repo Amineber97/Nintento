@@ -5,9 +5,12 @@ import metier.Jeu;
 import metier.Client;
 
 
+import metier.Boutique;
+
 public class Test {
 
 	public static void main(String[] args) {
+
 		Console ps = new Console("ps5");
 		Console xbox = new Console("xbox");
 		
@@ -20,6 +23,8 @@ public class Test {
 		Jeu jeu5 = new Jeu("PUBG", xbox, boutique);
 
 
+		
+		Boutique b = new Boutique ("zara","rue des peupliers");
 
 		
 		Client c1 = new Client("K", "Momo");
