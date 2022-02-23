@@ -34,6 +34,8 @@ public class Test {
 		
 		Client c1 = new Client("K", "Momo", a1);
 		Client c2 = new Client("Mario", "Amine", a1);
+		System.out.println(a1);
+		System.out.println(c1);
 	}
 
 }
