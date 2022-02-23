@@ -1,4 +1,8 @@
 package test;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 import metier.Boutique;
 import metier.Console;
 import metier.Jeu;
@@ -26,9 +30,12 @@ public class Test {
 		
 		Boutique b = new Boutique ("zara","rue des peupliers");
 
+		List<String> a1 = new ArrayList();
+		Collections.addAll(a1, "achat1", "achat2");
 		
-		Client c1 = new Client("K", "Momo");
-		Client c2 = new Client("Mario", "Amine");
+		
+		Client c1 = new Client("K", "Momo", a1);
+		Client c2 = new Client("Mario", "Amine", a1);
 	}
 
 }
